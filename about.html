@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Med Manic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel="stylesheet" href="css/gifbg.css"/>
+
+
+
+		<style>
+			footer {
+  background-color: #000000ff;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  padding: 1rem 1rem;
+}
+.fcontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.map {
+  position: relative;
+  margin-top: 14px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  min-width: 250px;
+  color: #f2f2f2f2;
+  font-family: poppins;
+  padding: 0 2rem;
+}
+.col .logo {
+  width: 100px;
+  margin-bottom: 25px;
+}
+.col h3 {
+  color: #ff014fff;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.col h3::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #ff014fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+.col h3:hover::after {
+  width: 30px;
+}
+.col .social a i {
+  color: #ff014fff;
+  margin-top: 2rem;
+  margin-right: 5px;
+  transition: 0.3s ease;
+}
+.col .social a i:hover {
+  transform: scale(1.5);
+  filter: grayscale(25);
+}
+.col .links a {
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
+  margin-bottom: 5px;
+  position: relative;
+  transition: 0.3s ease;
+}
+.col .links a::before {
+  content: "";
+  height: 16px;
+  width: 3px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  background-color: #ff014fff;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.col .links a:hover::before {
+  opacity: 1;
+}
+.col .links a:hover {
+  transform: translateX(-8px);
+  color: #ff014fff;
+}
+.col .contact-details {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.col .contact-details i {
+  margin-right: 15px;
+}
+.row .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.row .form input {
+  background-color: #1a1c20ff;
+  border: 0;
+  outline: none;
+  padding: 14px 20px;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form button {
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #ff014fff;
+}
+
+/********** Responsive Design ********/
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+		</style>
+
+
+
+
+
+
+
+		
+	</head>
+	<body>
+		<div class="background">
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Home</a>
+					<nav id="nav">
+						<a href="#event-tech">Tech</a>
+						<a href="#event-nontech">Non-Tech</a>
+						<!-- <a href="seminar.html">Seminars</a> -->
+						<a href="wrokshp.html">Workshop</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h1>Biomedical Engineering</h1>
+				<p>Think & Innovate</p>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner">
+					<div class="flex flex-2">
+						<article>
+							<header>
+								<h3><span style="font-weight:bold;">About<br/>BIO-MEDICAL</span></h3>
+							</header>
+							<p align="justify"><strong><a href="https://erode-sengunthar.ac.in/bme-aboutus/">Biomedical&rarr;</a></strong></p>
+							<p align="justify"><strong>Biomedical engineering is a multidisciplinary field that applies principles and techniques of engineering to solve problems in biology and medicine. It involves the design, development, and implementation of innovative technologies and systems to advance healthcare, improve medical diagnostics, treatments, and patient care. Biomedical engineers often collaborate with healthcare professionals, scientists, and other engineers to create solutions ranging from medical devices and imaging technologies to tissue engineering and biomechanics applications. The ultimate goal of biomedical engineering is to enhance human health and well-being through the application of engineering principles to biological and medical challenges.</strong></p>
+							
+						</article>
+						<article>
+							<header>
+								<h3><span style="font-weight:bold;">About<br/>ESEC</span></h3>
+							</header>
+							<p align="justify"><strong><a href="https://erode-sengunthar.ac.in/">Esec &rarr;</a></strong></p>
+							<p align="justify"><strong>Erode Sengunthar Engineering College is positioned in the 51-100 Band NIRF, Innovation Ranking 2023,[2] released in June 2023 by Ministry of Education, Government of India. The Institution also ranked 22, National level under Top T Schools in India 2023[3] & 7th in Tamil Nadu 
+								ranked by Data Quest - CMR Survey 18th Edition, released in March 2023..The college was started by Erode Sengunthar Educational Trust in 1996. It has ISO 9001:2008 certification and is accredited by the National Board of Accreditation. It is affiliated to Anna University, Chennai. All the undergraduate courses offered are permanently affiliated to Anna University, Chennai. The college is an Autonomous College, accredited with the National Assessment and Accreditation Council (NAAC) Bengaluru with grade of 'A'.</strong></p>
+						</article>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper special">
+				<div class="inner">
+					<header class="align-center">
+            <p align="justify"><strong>Med Maniac annual fest, Med Maniac is back in 2024 with it's 3rd edition and will be held from 22nd to 23rd April, 2024.Med Maniac promises a variety of experiences and fun for students.</strong></p>
+
+						<h2 id="event-tech"><span style="font-weight:bold";>Tech Fest</span></h2>
+					</header>
+											<article>
+
+							<div class="image fit">
+								<img src="./images/technical_events.png" alt="technical_events" />
+							</div>
+							<header>
+							</header>
+							<footer id="demo">
+								<p align="center"><a href="events.html"><button class="button special" target="_blank" >Register</button></a></p>
+							</footer>
+						</article>
+
+						<article>
+							<header class="align-center">
+								<h2 id="event-nontech"><span style="font-weight:bold";>Non-Tech Fest</span></h2>
+							</header>
+							<div class="image fit">
+								<img src="./images/Non Technical.png" alt="non_technical_events" />
+							</div>
+							<header>
+							</header>
+							<!-- <p align="justify"><strong>Med Maniac annual fest, Med Maniac is back in 2024 with it's 3rd edition and will be held from 22nd to 23rd April, 2024.Med Maniac promises a variety of experiences and fun for students.</strong></p> -->
+							<footer id="demo">
+								<p align="center"><a href="events.html"><button class="button special" target="_blank" >Register</button></a></p>
+							</footer>
+						</article>
+
+            <article>
+							<header class="align-center">
+								<h2 id="event-workshop"><span style="font-weight:bold";>workshop</span></h2>
+							</header>
+							<div class="image fit">
+								<img src="./images/wrokshop.jpeg" alt="non_technical_events" />
+							</div>
+							<header>
+								<!-- <h3 align="center">For the Students. By the Students. With The Students.</h3> -->
+							</header>
+							<!-- <p align="justify"><strong></strong></p> -->
+							<footer id="demo">
+								<p align="center"><a href="wrokshp.html"><button class="button special" target="_blank" >Register</button></a></p>
+							</footer>
+								<h3 align="center">For the Students. By the Students. With The Students.</h3>
+
+						</article>
+
+
+					</div>
+					<footer id="demo">
+						<p align="center"><a href="contact.html"><button class="button special" target="_blank" >Contact-Us</button></a></p>
+					</footer>
+				</div>
+			</section>
+     
+		</div>
+
+
+
+		<footer class="ffcontainer">
+      <div class="fcontainer">
+        <div class="row">
+          <div class="col" id="company">
+            <img src="images/logo.png" alt="" class="logo" />
+            <h3>Staff Coodinators</h3>
+            <p>
+              Divya M<br />
+              <em cla.ss="final">(AP/BME)</em>
+              (Ph:7010463948)
+              <br />
+              Leka K.K<br />
+              <em cla.ss="final">(AP/BME)</em>
+              (Ph:6379346764)
+            </p>
+
+            <div class="social">
+              <!-- <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a> -->
+            </div>
+          </div>
+
+          <div class="col" id="services">
+            <h3>Developer</h3>
+            <div class="links">
+              <a href="#">Manikandan <span>M</span></a>
+              <a href="#"><em cla.ss="final">(Final year BME)</em></a>
+              <!-- <a href="#">Poster Design</a>
+              <a href="#">Card Design</a> -->
+            </div>
+          </div>
+
+          <div class="col" id="useful-links">
+            <h3>Links</h3>
+            <div class="links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="events.html">Events</a>
+              <a href="wrokshp.html">Workshop</a>
+							<a href="contact.html">Contact</a>
+              <!-- <a href="#">Help</a> -->
+            </div>
+          </div>
+
+          <div class="col" id="contact">
+            <h3>Contact</h3>
+            <div class="contact-details">
+              <p>
+                Sureshkumar K <br />
+                -Final year(BME) (Ph:9486202717)
+              </p>
+            </div>
+            <div class="contact-details">
+              <p>
+                Sakthivel P <br />
+                -Pre Final year(BME) (Ph:9361986158)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+	</body>
+</html>
