@@ -1,7 +1,11 @@
 .container {
   /* background-image: url(../images/esecimg.jpg); */
 }
+h1 {
+  color: rgb(233, 198, 0);
+}
 body {
+  background: url(../images/mm6.gif);
   margin-top: 8px;
 }
 
@@ -26,13 +30,13 @@ body {
 .card h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #333;
+  color: #10f4ac;
 }
 
 /* Card description */
 .card p {
   font-size: 16px;
-  color: #666;
+  color: #bebebe;
 }
 
 /* Responsive design for mobile */

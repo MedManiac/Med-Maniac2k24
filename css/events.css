@@ -1,6 +1,11 @@
+/* body {
+  width: 100%;
+} */
 .newcontainer {
-  background-image: url(../images/gif9.jpg);
+  background-image: url(../images/mm6.gif);
+  margin-right: -50px;
 }
+
 h3 {
   color: rgb(236, 20, 71);
 }
@@ -59,13 +64,13 @@ body {
 .footer-container {
   background-color: #000000ff;
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   min-height: 350px;
-  padding: 1rem 1rem;
+  padding: 2px 2px;
 }
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px; */
+  margin-right: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
